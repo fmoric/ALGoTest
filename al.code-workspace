@@ -1,11 +1,14 @@
 {
-    "folders": [
-        {
-            "path": ".AL-Go"
-        },
-        {
-            "path": "EInvoice_NewPlan"
-        }
-    ],
-    "settings": {}
+  "folders": [
+    {
+      "path": ".AL-Go"
+    },
+    {
+      "path": "EInvoice_NewPlan"
+    },
+    {
+      "path": "ALGoTestTest"
+    }
+  ],
+  "settings": {}
 }
