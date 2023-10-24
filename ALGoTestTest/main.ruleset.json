@@ -1,0 +1,21 @@
+{
+    "name": "Company ruleset",
+    "description": "These rules must be respected by all the AL code written within the company.",
+    "rules": [
+        {
+            "id": "AA0205",
+            "action": "None",
+            "justification": "Variables must be initialized before usage."
+        },
+        {
+            "id": "AA0194",
+            "action": "Error",
+            "justification": "Only write actions that have an effect. Remember to specify either the 'OnAction' trigger or the 'RunObject' property on an action."
+        },
+        {
+            "id": "AA0072",
+            "action": "None",
+            "justification": "The name of <variable> is not valid. The name of variables and parameters must be suffixed with the type or object name."
+        }
+    ]
+}

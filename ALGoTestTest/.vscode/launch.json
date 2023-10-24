@@ -1,5 +1,23 @@
 {
     "version": "0.2.0",
-    "configurations": [
+    "configurations": [{
+        "name": "algoforgithubtest Https",
+        "request": "launch",
+        "type": "al",
+        "environmentType": "OnPrem",
+        "server": "http://algoforgithubtest",
+        "serverInstance": "BC",
+        "authentication": "UserPassword",
+        "startupObjectId": 130451,
+        "startupObjectType": "Page",
+        "breakOnError": "All",
+        "launchBrowser": true,
+        "enableLongRunningSqlStatements": true,
+        "enableSqlInformationDebugger": true,
+        "tenant": "default",
+        "usePublicURLFromServer": true,
+        "schemaUpdateMode": "ForceSync",
+        "dependencyPublishingOption": "Default"
+     }
     ]
 }

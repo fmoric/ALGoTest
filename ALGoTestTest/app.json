@@ -1,7 +1,7 @@
 {
-  "id": "25bd5457-980b-4ef5-9c89-fcc217789098",
-  "name": "ALGoTestTest",
-  "publisher": "BE-Terna d.o.o.",
+  "id": "dabbe257-753e-49bc-b20c-bb1824ed7ae2",
+  "name": "Be-Terna UBL Document Delivery",
+  "publisher": "Be-Terna d.o.o.",
   "version": "1.0.0.0",
   "brief": "",
   "description": "",
@@ -10,22 +10,24 @@
   "help": "",
   "url": "",
   "logo": "",
-  "dependencies": [],
+  "dependencies": [
+  ],
   "screenshots": [],
   "platform": "1.0.0.0",
   "application": "22.0.0.0",
   "idRanges": [
     {
-      "from": 50000,
-      "to": 50200
+      "from": 50100,
+      "to": 50149
     }
-  ],
-  "features": [
-    "NoImplicitWith"
   ],
   "resourceExposurePolicy": {
     "allowDebugging": true,
-    "allowDownloadingSource": false,
-    "includeSourceInSymbolFile": false
-  }
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "11.0",
+  "features": [
+    "NoImplicitWith"
+  ]
 }
